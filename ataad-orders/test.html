@@ -7,20 +7,7 @@
 
 </head>
 <body>
-    <h1><?php 
-        $server_db = "147.182.181.209";
-        $user_db = "ataad";
-        $pass_db = "@Ataad2022@";
-        $name_db = "ataad_orders";
-        
-        $db = mysqli_connect($server_db, $user_db, $pass_db, $name_db);
-        
-        if($db === false){
-            die("ERROR: Could not connect. " . mysqli_connect_error());
-        }
-        
-        echo "connected";
-        ?></h1>
+    <h1><?php  echo "connected";?></h1>
     
 </body>
 </html>
